@@ -33,8 +33,8 @@ nav a{
     color: white;
     text-decoration: none;
 }
-nav a: {
-
+nav a:hover {
+background-color: #444f59;
 }
 nav button{
     background-color: #46c83c;
