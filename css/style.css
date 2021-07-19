@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    font-family: byekan;
+    margin: 0;
+    padding: 0;
+  }
+  @font-face {
+    font-family: byekan;
+    src: url(../font/Yekan.ttf);
+  }
+/*  start header */
+header{
+    background-color: #282b2e;
+}
+p{
+    color: white;
+}
+/* end header */
