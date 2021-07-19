@@ -15,4 +15,14 @@ header{
 p{
     color: white;
 }
+.date-time{
+    flex-basis: 30%;
+}
+.date-time img{
+    height: 15px;
+    margin-top: 8px;
+}
+.date-time{
+    padding-top: 8px;
+}
 /* end header */
