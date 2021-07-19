@@ -23,3 +23,24 @@ p{
     padding-top: 8px;
 }
 /* end header */
+
+/* start nav */
+nav{
+    background-color: #1172d3;
+    padding: 0 100px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a: {
+
+}
+nav button{
+    background-color: #46c83c;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+/* end nav */
