@@ -1,46 +1,52 @@
 * {
-    box-sizing: border-box;
-    font-family: byekan;
-    margin: 0;
-    padding: 0;
-  }
-  @font-face {
-    font-family: byekan;
-    src: url(../font/Yekan.ttf);
-  }
+  box-sizing: border-box;
+  font-family: byekan;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: byekan;
+  src: url(../font/Yekan.ttf);
+}
 /*  start header */
-header{
-    background-color: #282b2e;
+header {
+  background-color: #282b2e;
 }
-p{
-    color: white;
+p {
+  color: white;
 }
-.date-time img{
-    height: 15px;
-    margin-top: 8px;
+.date-time img {
+  height: 15px;
+  margin-top: 8px;
 }
-.date-time{
-    padding-top: 8px;
+.date-time {
+  padding-top: 8px;
 }
 /* end header */
 
 /* start nav */
-nav{
-    background-color: #1172d3;
-    padding: 0 100px;
+nav {
+  background-color: #1172d3;
+  direction: rtl;
+  padding: 0 100px;
 }
-nav a{
-    color: white;
-    text-decoration: none;
+nav a {
+  color: white;
+  text-decoration: none;
 }
 nav a:hover {
-background-color: #444f59;
+  background-color: #444f59;
 }
-nav button{
-    background-color: #46c83c;
-    color: white;
-    border: 0;
-    border-radius: 20px;
-    padding: 5px 20px;
+nav button {
+  background-color: #46c83c;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+@media screen and (max-width:1080px) {
+    nav{
+        padding: 0;
+    }
 }
 /* end nav */
