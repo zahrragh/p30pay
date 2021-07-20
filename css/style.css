@@ -19,9 +19,19 @@ p {
   height: 15px;
   margin-top: 8px;
 }
+.date-time p{
+    padding: 0 10px;
+    margin-top:8px;
+  }
 .date-time {
   padding-top: 8px;
+  text-align: center;
 }
+.time{
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+  
+  }
 /* end header */
 
 /* start nav */
