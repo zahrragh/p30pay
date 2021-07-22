@@ -1,17 +1,35 @@
 /* start slider */
 .carousel-indicators button {
-   border-radius: 100%;
-  }
-  .title-slider{
-      position: relative;
-      bottom: 70px;
-      font-size: 32pt;
-      border-bottom: 2px solid white;
-      border
-  }
+  border-radius: 100%;
+}
+.title-slider {
+  position: relative;
+  bottom: 70px;
+  font-size: 32pt;
+  border-bottom: 2px solid white;
+}
 /* end slider */
 /* start card */
-.card-text{
-    color: gray;
+.card:hover {
+  background-color: #f7f7f7;
+}
+.card-text {
+  color: gray;
+  text-align: center;
+}
+.card-body {
+  text-align: center;
 }
 /* end card */
+
+/* start article */
+article {
+  background-color: #f4f6f8;
+  direction: rtl;
+  padding: 30px;
+}
+/* end article */
+.pic {
+  object-fit: cover;
+  width: 100%;
+}
