@@ -10,10 +10,10 @@
 }
 /* end slider */
 /* start card */
-.card:hover {
+.card1 .card:hover {
   background-color: #f7f7f7;
 }
-.card-text {
+.card1 .card-text {
   color: gray;
   text-align: center;
 }
@@ -41,4 +41,27 @@ article {
   margin-right: 20px;
   border-right: 2px solid #ccc;
 }
+.btn{
+  position: relative;
+  right: 140px;
+  bottom: 30px;
+  padding: 0;
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon{
+  background-color: black;
+}
 /* end slider */
+
+
+/* start card2 */
+.card2{
+  background-image: url(../img/card2.png);
+  background-size: cover;
+  padding: 30px 100px;
+}
+.card2 .col-lg-4{
+  box-shadow: 1px 1px 1px 1px white;
+  padding: 30px 50px;
+}
+/* end card2 */
