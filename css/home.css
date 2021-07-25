@@ -73,24 +73,14 @@ article {
 /* end card2 */
 
 /* start slider2 */
-.slider2 .border{
- width: 300px;
- margin: 0;
-}
-.slider2 .comment-text {
-  padding-right: 20px;
-  margin-top: 20px;
-  margin-right: 20px;
-  border-right: 2px solid #ccc;
-}
-.slider2 .btn{
-  position: relative;
-  right: 140px;
-  bottom: 30px;
-  padding: 0;
-}
-
 .slider2 .carousel-control-prev-icon , .carousel-control-next-icon{
   background-color: black;
 }
 /* end slider2 */
+
+/* start upper footer */
+.upper-footer img{
+  border-right: 1px solid #ccc;
+  object-fit: unset;
+}
+/* end upper footer */
