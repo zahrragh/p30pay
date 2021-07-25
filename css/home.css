@@ -51,9 +51,14 @@ article {
   padding: 0;
 }
 
-.slider1 .carousel-control-prev-icon , .carousel-control-next-icon{
-  background-color: black;
+.slider1 .carousel-control-prev-icon{
+ background-image: url(../img/angle-left.png);
 }
+.slider1 .carousel-control-next-icon{
+  right: 575%;
+  background-image: url(../img/angle-right.png);
+}
+
 /* end slider */
 
 
@@ -73,9 +78,13 @@ article {
 /* end card2 */
 
 /* start slider2 */
-.slider2 .carousel-control-prev-icon , .carousel-control-next-icon{
-  background-color: black;
-}
+.slider2 .carousel-control-prev-icon{
+  background-image: url(../img/angle-left.png);
+ }
+ .slider2 .carousel-control-next-icon{
+   right: 575%;
+   background-image: url(../img/angle-right.png);
+ }
 /* end slider2 */
 
 /* start upper footer */
