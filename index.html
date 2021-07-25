@@ -285,31 +285,41 @@
       <!-- slider -->
       <div
         id="carouselExampleControlsNoTouching"
-        class="carousel slide slider1"
+        class="carousel slide slider1 mt-5"
         data-bs-touch="false"
         data-bs-interval="false"
       >
-        <div class="slider-button d-flex row" dir="rtl">
-          <h2>نظرات مشتریان ما</h2>
+      <div>
+        <div>
+          <h2 dir="rtl">نظرات مشتریان ما</h2>
+        </div>
+        <div class="position-relative">
           <button
-            class="carousel-control-prev"
+            class="carousel-control-prev position-absolute"
             type="button"
             data-bs-target="#carouselExampleControlsNoTouching"
             data-bs-slide="prev"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span
+              class="carousel-control-prev-icon position-absolute"
+              aria-hidden="true"
+            ></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button
-            class="carousel-control-next"
+            class="carousel-control-next position-absolute"
             type="button"
             data-bs-target="#carouselExampleControlsNoTouching"
             data-bs-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span
+              class="carousel-control-next-icon position-absolute"
+              aria-hidden="true"
+            ></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+      </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <!-- carousel item -->
@@ -365,7 +375,7 @@
       <!-- end commnts -->
 
       <!-- start card2-->
-      <div class="card2 widget row text-white">
+      <div class="card2 widget row text-white mt-5">
         <div class="col-lg-3 border m-2 gx-2 mx-auto">
           <img
             class="mx-auto d-block img-fluid"
@@ -531,46 +541,61 @@
         />
       </div>
       <!-- end upper footer -->
-      <footer class="">
-        <div class="left-box">
+      <footer class="text-white d-flex flex-wrap justify-content-between p-5">
+        <div class="left-box col-md-4 mx-auto" dir="rtl">
           <h3>نماد های اعتماد</h3>
           <div>
-            <img src="img/nezamsenfi.png" />
-            <img src="img/samandehi_footer.png" />
-            <img src="img/namad.png" />
+            <img src="img/nezamsenfi.png" width="30%" />
+            <img src="img/samandehi_footer.png" width="30%" />
+            <img src="img/namad.png" width="30%" />
           </div>
         </div>
-        <div class="center-box">
+        <div class="center-box col-md-4 mx-auto" dir="rtl">
           <h3>آخرین مطالب بلاگ</h3>
-          <ul>
-            <li>
-              <a href="#" class="">
-                <button class="btn-primary">17 دیماه 1395</button>
-                <p>قیمت محصولات سایت به روز شدند.</p>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <button class="btn-primary">17 دیماه 1395</button>
-                <p>چرا احراز هویت؟</p>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <button class="btn-primary">17 دیماه 1395</button>
-                <p>نحوه ی خرید و فروش پرفکت مانی</p>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <button class="btn-primary">17 دیماه 1395</button>
-                <p>سوالات بیت کوینی</p>
-              </a>
-            </li>
-          </ul>
+
+          <div class="d-flex my-1">
+            <button class="btn-primary h-100 mx-1">17 دیماه 1395</button>
+            <p>قیمت محصولات سایت به روز شدند.</p>
+          </div>
+          <div class="d-flex my-1">
+            <button class="btn-primary h-100 mx-1">17 دیماه 1395</button>
+            <p>چرا احراز هویت؟</p>
+          </div>
+          <div class="d-flex my-1">
+            <button class="btn-primary h-100 mx-1">17 دیماه 1395</button>
+            <p>نحوه ی خرید و فروش پرفکت مانی</p>
+          </div>
+          <div class="d-flex my-1">
+            <button class="btn-primary h-100 mx-1">17 دیماه 1395</button>
+            <p>سوالات بیت کوینی</p>
+          </div>
         </div>
-        <div class="right-box"></div>
+        <div class="right-box col-md-4 mx-auto" dir="rtl">
+          <h3>اطلاعات تماس</h3>
+          <p>
+            دفتر شیراز : 20 متری سینما سعدی ، خیابان اردیبهشت غربی ساختمان 57
+            طبقه 3 واحد 5
+          </p>
+          <div class="d-flex">
+            <img src="img/footer-tel.svg" width="30px" />
+            <p>071-تلفن : 32340747</p>
+          </div>
+          <div class="d-flex">
+            <img src="img/footer-tv.svg" width="30px" />
+            <p>071-تلفن : 32340747</p>
+          </div>
+        </div>
       </footer>
+      <div
+        class="d-flex justify-content-around"
+        style="background-color: rgb(49, 48, 48)"
+      >
+        <p class="text-center">
+          تمامی حقوق این سایت برای شرکت
+          <span class="text-success"> معینیوآی آر</span> محفوظ است و هرگونه کپی
+          برداری از طرح و مطلب سایت پیگرد قانونی دارد
+        </p>
+      </div>
     </section>
   </body>
   <script src="css/bootstrap.js"></script>
