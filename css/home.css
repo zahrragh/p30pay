@@ -1,3 +1,6 @@
+img{
+  object-fit: cover;
+}
 /* start slider */
 .carousel-indicators button {
   border-radius: 100%;
@@ -35,20 +38,20 @@ article {
 }
 
 /* start slider */
-.comment-text {
+.slider1 .comment-text {
   padding-right: 20px;
   margin-top: 20px;
   margin-right: 20px;
   border-right: 2px solid #ccc;
 }
-.btn{
+.slider1 .btn{
   position: relative;
   right: 140px;
   bottom: 30px;
   padding: 0;
 }
 
-.carousel-control-prev-icon , .carousel-control-next-icon{
+.slider1 .carousel-control-prev-icon , .carousel-control-next-icon{
   background-color: black;
 }
 /* end slider */
@@ -68,3 +71,26 @@ article {
   background-color: #1172D3;
 }
 /* end card2 */
+
+/* start slider2 */
+.slider2 .border{
+ width: 300px;
+ margin: 0;
+}
+.slider2 .comment-text {
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-right: 2px solid #ccc;
+}
+.slider2 .btn{
+  position: relative;
+  right: 140px;
+  bottom: 30px;
+  padding: 0;
+}
+
+.slider2 .carousel-control-prev-icon , .carousel-control-next-icon{
+  background-color: black;
+}
+/* end slider2 */
