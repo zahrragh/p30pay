@@ -62,4 +62,8 @@ nav button {
 /* end nav */
 
 /* start footer */
+footer{
+  background-image: url(../img/footer-background.jpg);
+  background-size: cover;
+}
 /* end footer */
