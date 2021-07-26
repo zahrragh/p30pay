@@ -32,6 +32,10 @@ header p {
     border-right: 2px solid gray;
   
   }
+  .social-media img:hover{
+    cursor: pointer;
+    opacity: 50%;
+  }
 /* end header */
 
 /* start nav */
