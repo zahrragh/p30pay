@@ -1,0 +1,100 @@
+img{
+  object-fit: cover;
+}
+/* start slider */
+.carousel-indicators button {
+  border-radius: 100%;
+}
+.title-slider {
+  position: relative;
+  bottom: 70px;
+  font-size: 32pt;
+  border-bottom: 2px solid white;
+}
+/* end slider */
+/* start card */
+.card1 .card:hover {
+  background-color: #f7f7f7;
+}
+.card1 .card-text {
+  color: gray;
+  text-align: center;
+}
+.card-body {
+  text-align: center;
+}
+/* end card */
+
+/* start article */
+article {
+  background-color: #f4f6f8;
+  direction: rtl;
+  padding: 30px;
+}
+/* end article */
+.pic {
+  object-fit: cover;
+  width: 100%;
+}
+
+/* start slider */
+.slider1 .comment-text {
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-right: 2px solid #ccc;
+}
+.slider1 .btn{
+  position: relative;
+  right: 140px;
+  bottom: 30px;
+  padding: 0;
+}
+
+.slider1 .carousel-control-prev-icon{
+ background-image: url(../img/angle-left.png);
+}
+.slider1 .carousel-control-next-icon{
+  right: 575%;
+  background-image: url(../img/angle-right.png);
+}
+
+/* end slider */
+
+
+/* start card2 */
+.card2{
+  background-image: url(../img/card2.png);
+  background-size: cover;
+  padding: 30px 100px;
+  margin-top: 50px;
+}
+.card2 .col-lg-3{
+  padding-top: 30px ;
+}
+.card2 .col-lg-3:hover{
+  background-color: #1172D3;
+  transition-duration: .5s;
+}
+/* end card2 */
+
+/* start slider2 */
+.slider2 .carousel-control-prev-icon{
+  background-image: url(../img/angle-left.png);
+ }
+ .slider2 .carousel-control-next-icon{
+   right: 575%;
+   background-image: url(../img/angle-right.png);
+ }
+/* end slider2 */
+
+/* start upper footer */
+.upper-footer img{
+  border-right: 1px solid #ccc;
+  object-fit: unset;
+  filter:grayscale(100%);
+}
+.upper-footer img:hover{
+  filter: none;
+}
+/* end upper footer */
