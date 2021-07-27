@@ -1,0 +1,16 @@
+/* start client location */
+.parallelogram {
+	transform: skew(-20deg);
+	background: rgb(236, 236, 236);
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 11px;
+}
+/* end client location */
+
+/*  start search box */
+.form-control{
+    border-bottom: 10px solid #000;
+    margin: 10px;
+}
+/*  end search box */
