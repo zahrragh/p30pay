@@ -104,9 +104,13 @@
         <p id="trapezoid" class="parallelogram">موقعیت شما</p>
         <p id="trapezoid" class="parallelogram">صفحه در حال سایت میباشد</p>
       </section>
+      <!-- end client location -->
+
+      <!-- start asid -->
       <aside>
-        <form class="d-flex">
-            <i class="fas fa-search"></i>
+        <!-- start search box -->
+        <form class="d-flex bg-white">
+          <i class="fas fa-search align-self-center"></i>
           <input
             class="form-control me-2 border-0"
             type="search"
@@ -114,8 +118,28 @@
             aria-label="Search"
           />
         </form>
+        <!-- start search box -->
+        <!-- start dropdown -->
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-danger dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+           دسته بندی ها
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">اخبار و اطلاعات</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </div>
+        <!-- end dropdown -->
       </aside>
-      <!-- end client location -->
+      <!-- start asid -->
     </section>
 
     <!-- start footer -->
