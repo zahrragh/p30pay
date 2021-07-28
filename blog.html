@@ -38,7 +38,7 @@
       </div>
     </header>
     <!-- end header -->
-    <section class="main bg-light" dir="rtl">
+    <section class="main" dir="rtl">
       <!-- start navbar -->
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -99,17 +99,18 @@
       <!-- end navbar -->
 
       <!-- start client location -->
-      <section dir="rtl" class="d-flex bg-white">
+      <section dir="rtl" class="client-loc d-flex bg-white border-bottom pt-3">
         <i class="fas fa-map-marker-alt"></i>
         <p id="trapezoid" class="parallelogram">موقعیت شما</p>
         <p id="trapezoid" class="parallelogram">صفحه در حال سایت میباشد</p>
       </section>
       <!-- end client location -->
 
+      <div class="container d-flex flex-wrap my-5 justify-content-between">
       <!-- start aside -->
-      <aside>
+      <aside class="col-lg-4">
         <!-- start search box -->
-        <form class="d-flex bg-white">
+        <form class="d-flex bg-white pe-3">
           <i class="fas fa-search align-self-center"></i>
           <input
             class="form-control me-2 border-0"
@@ -120,12 +121,12 @@
         </form>
         <!-- start search box -->
         <!-- start dropdown -->
-        <div class="list-group">
+        <div class="list-group mt-5">
           <a
             href="#"
             class="list-group-item list-group-item-action bg-secondary d-flex"
           >
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars mt-2 ms-2"></i>
             <h4>دسته بندی ها</h4>
           </a>
           <a href="#" class="list-group-item list-group-item-action"
@@ -143,7 +144,7 @@
         </div>
         <!-- end dropdown -->
         <!-- start list -->
-        <div class="list-group">
+        <div class="list-group mt-5">
           <a
             href="#"
             class="list-group-item list-group-item-action bg-secondary"
@@ -155,45 +156,202 @@
               <img src="img/1.svg" class="mb-2" />
               <div>
                 <h5>تمام خدمات سایت بدون هیچ هزینه...</h5>
-                <p>معین اکبری " یکشنبه 25 دی 1395</p>
+                <p class="text-muted">معین اکبری " یکشنبه 25 دی 1395</p>
               </div>
-            </div></a
-          >
+            </div>
+          </a>
           <a href="#" class="list-group-item list-group-item-action"
             ><div class="d-flex align-items-center">
               <img src="img/1.svg" class="mb-2" />
               <div>
                 <h5>تمام خدمات سایت بدون هیچ هزینه...</h5>
-                <p>معین اکبری " یکشنبه 25 دی 1395</p>
+                <p class="text-muted">معین اکبری " یکشنبه 25 دی 1395</p>
               </div>
-            </div></a
-          >
+            </div>
+          </a>
           <a href="#" class="list-group-item list-group-item-action"
             ><div class="d-flex align-items-center">
               <img src="img/1.svg" class="mb-2" />
               <div>
                 <h5>تمام خدمات سایت بدون هیچ هزینه...</h5>
-                <p>معین اکبری " یکشنبه 25 دی 1395</p>
+                <p class="text-muted">معین اکبری " یکشنبه 25 دی 1395</p>
               </div>
-            </div></a
-          >
+            </div>
+          </a>
           <a href="#" class="list-group-item list-group-item-action"
             ><div class="d-flex align-items-center">
               <img src="img/1.svg" class="mb-2" />
               <div>
                 <h5>تمام خدمات سایت بدون هیچ هزینه...</h5>
-                <p>معین اکبری " یکشنبه 25 دی 1395</p>
+                <p class="text-muted">معین اکبری " یکشنبه 25 دی 1395</p>
               </div>
-            </div></a
-          >
+            </div>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action  text-center"
+            >
+              <small class="text-muted">مشاهده سایر مطالب ...</small>
+            
+          </a>
         </div>
         <!-- end list -->
       </aside>
       <!-- start aside -->
 
       <!-- start article -->
-      <section></section>
+      <section class=" col-lg-7 mt-2">
+        <div class="card mb-3 p-2 rounded" style="max-width: 600px;">
+          <h5 class="card-title bg-primary rounded p-3 text-white">
+            چه بخت بلندی چه ماهی چه ماهی چه حال عجیبی چه حال مستی ...
+          </h5>
+          <div class=" g-0">
+            <div class="boy-pic d-flex">
+              <img src="img/boy.jpg" class="img-fluid p-2" />
+              <div class="card-body">
+                <p class="card-text">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که آینده شناخت فراوان جامعه و متخصصان
+                  را می طلبد ....
+                </p>
+              </div>
+            </div>
+            <p class="card-text">
+              <div class="cardd d-flex flex-wrap">
+              <small class="text-muted ms-3">
+                <div class="d-flex">
+                  <i class="fas fa-user ms-1"></i>
+                  <p>معین اکبری</p>
+                </div>
+              </small>
+              <small class="text-muted ms-3">
+                <div class="d-flex">
+                 <i class="fa fa-clock ms-1"></i>
+                 <p>۱۵ فروردین ۹۵</p>
+                </div>
+              </small>
+              <small class="text-muted ms-3">
+                <div class="d-flex">
+                  <i class="fas fa-comment-alt ms-1"></i>
+                  <p>۳ نظر</p>
+                </div>
+              </small>
+              <small class="text-muted">
+                <div class="d-flex">
+                  <i class="fas fa-eye ms-1"></i>
+                 <p>۷۴ بازدید</p>
+                </div>
+              </small>
+              <button class="border-0 text-white ps-4 pe-4 me-5 mb-3">ادامه مطلب</button>
+            </div>
+            </p>
+          </div>
+        </div>
+        <div class="card mb-3 p-2 rounded" style="max-width: 600px;">
+          <h5 class="card-title bg-primary rounded p-3 text-white">
+            چه بخت بلندی چه ماهی چه ماهی چه حال عجیبی چه حال مستی ...
+          </h5>
+          <div class=" g-0">
+            <div class="boy-pic d-flex">
+              <img src="img/boy.jpg" class="img-fluid rounded-start p-2" />
+              <div class="card-body">
+                <p class="card-text">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که آینده شناخت فراوان جامعه و متخصصان
+                  را می طلبد ....
+                </p>
+              </div>
+            </div>
+            <p class="card-text">
+              <div class="cardd d-flex flex-wrap">
+              <small class="text-muted ms-3">
+                <div class="d-flex">
+                  <i class="fas fa-user ms-1"></i>
+                  <p>معین اکبری</p>
+                </div>
+              </small>
+              <small class="text-muted ms-3">
+                <div class="d-flex">
+                 <i class="fa fa-clock ms-1"></i>
+                 <p>۱۵ فروردین ۹۵</p>
+                </div>
+              </small>
+              <small class="text-muted ms-3">
+                <div class="d-flex">
+                  <i class="fas fa-comment-alt ms-1"></i>
+                  <p>۳ نظر</p>
+                </div>
+              </small>
+              <small class="text-muted">
+                <div class="d-flex">
+                  <i class="fas fa-eye ms-1"></i>
+                 <p>۷۴ بازدید</p>
+                </div>
+              </small>
+              <button class="border-0 text-white ps-4 pe-4 me-5 mb-3">ادامه مطلب</button>
+            </div>
+            </p>
+          </div>
+        </div>
+        <div class="card mb-3 p-2 rounded" style="max-width: 600px;">
+          <h5 class="card-title bg-primary rounded p-3 text-white">
+            چه بخت بلندی چه ماهی چه ماهی چه حال عجیبی چه حال مستی ...
+          </h5>
+          <div class=" g-0">
+            <div class="boy-pic d-flex">
+              <img src="img/boy.jpg" class=" img-fluid p-2" />
+              <div class="card-body">
+                <p class="card-text">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که آینده شناخت فراوان جامعه و متخصصان
+                  را می طلبد ....
+                </p>
+              </div>
+            </div>
+            <p class="card-text">
+              <div class="cardd d-flex flex-wrap">
+              <small class="text-muted ms-3">
+                <div class="d-flex">
+                  <i class="fas fa-user ms-1"></i>
+                  <p>معین اکبری</p>
+                </div>
+              </small>
+              <small class="text-muted ms-3">
+                <div class="d-flex">
+                 <i class="fa fa-clock ms-1"></i>
+                 <p>۱۵ فروردین ۹۵</p>
+                </div>
+              </small>
+              <small class="text-muted ms-3">
+                <div class="d-flex">
+                  <i class="fas fa-comment-alt ms-1"></i>
+                  <p>۳ نظر</p>
+                </div>
+              </small>
+              <small class="text-muted">
+                <div class="d-flex">
+                  <i class="fas fa-eye ms-1"></i>
+                 <p>۷۴ بازدید</p>
+                </div>
+              </small>
+              <button class="border-0 text-white ps-4 pe-4 me-5 mb-3">ادامه مطلب</button>
+            </div>
+            </p>
+          </div>
+        </div>
+        <nav aria-label="Page navigation bg-transparent">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+          </ul>
+        </nav>
+      </section>
       <!-- end article -->
+    </div>
     </section>
 
     <!-- start footer -->
