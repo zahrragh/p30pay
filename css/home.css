@@ -55,10 +55,14 @@ article {
  background-image: url(../img/angle-left.png);
 }
 .slider1 .carousel-control-next-icon{
-  right: 575%;
+  right: 600%;
   background-image: url(../img/angle-right.png);
 }
-
+@media screen and (max-width:1110px) {
+  .slider1 .carousel-control-next-icon{
+    right: 550%;
+  }
+}
 /* end slider */
 
 .pic-back{
@@ -86,9 +90,14 @@ article {
   background-image: url(../img/angle-left.png);
  }
  .slider2 .carousel-control-next-icon{
-   right: 575%;
+   right: 600%;
    background-image: url(../img/angle-right.png);
  }
+ @media screen and (max-width:1110px) {
+  .slider2 .carousel-control-next-icon{
+    right: 550%;
+  }
+}
  /* .circle{
    width: 127px;
    height: 100px;
