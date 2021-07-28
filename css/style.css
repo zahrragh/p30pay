@@ -39,7 +39,7 @@ header p {
 /* end header */
 
 /* start nav */
-nav {
+.navbar {
   background-color: #1172d3;
   direction: rtl;
   padding: 0 100px;
