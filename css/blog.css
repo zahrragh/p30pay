@@ -21,14 +21,16 @@
 }
 /*  end search box */
 
+/* start article */
 .cardd button{
     background-color: #7ebf39;
 }
-
-
-
 @media screen and (max-width:550px) {
     .boy-pic{
         flex-wrap: wrap;
     }
 }
+/* end article */
+
+/*  */
+/*  */
