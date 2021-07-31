@@ -1,0 +1,73 @@
+.dotted-border {
+  border: 2px dotted #ccc;
+  color: #b3b4b4;
+}
+.blue-dot {
+  list-style-image: url(../img/blue-dot.jpg);
+  margin-right: 50px;
+}
+/* img hover */
+/* img hover */
+/* img hover */
+.img-hover {
+  position: relative;
+}
+.img-hover .text {
+  position: absolute;
+  display: none;
+  direction: rtl;
+  color: white;
+  bottom: 25px;
+  right: 10px;
+}
+.img-right:hover{
+    filter:contrast(200%) brightness(50%);
+}
+.img-right:hover + .text {
+  display: block;
+}
+@media screen and (max-width:600px) {
+    .wrap-flex{
+        flex-wrap: wrap;
+       justify-content: space-around;
+    }
+}
+
+
+
+/* .img-container {
+  position: relative;
+  width: 30%;
+}
+.img-hover-right {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
