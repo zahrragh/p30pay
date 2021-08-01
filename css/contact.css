@@ -1,3 +1,12 @@
 form input , form textarea{
     border:1px #ccc solid;
 }
+
+@media screen and (max-width:750px) {
+    #address{
+        width: 100%;
+    }
+    #message{
+        width: 100%;
+    }
+}
