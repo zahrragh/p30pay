@@ -113,30 +113,30 @@
           <img src="img/man.jpg" width="26" height="26" class="ms-2" />
           <h4>ورود به پرتال</h4>
         </div>
-        <div class="bg-white">
-          <div>
+        <div class="bg-white d-flex flex-wrap">
+          <div class="col-lg-6 p-3">
             <form>
               <input
-                class="p-2 my-2 w-100 rounded-1 bg-light"
+                class="p-2 my-2 col-12 rounded-1 bg-light"
                 type="text"
                 name="username"
                 id="username"
                 placeholder="نـام کـاربری"
               />
               <input
-                class="p-2 my-2 w-100 rounded-1 bg-light"
+                class="p-2 my-2 col-12 rounded-1 bg-light"
                 type="password"
                 name="pass"
                 id="pass"
                 placeholder="رمز عبور"
               />
-              <div class="code d-flex flex-md-nowrap flex-wrap my-2">
+              <div class="code d-flex flex-lg-nowrap flex-wrap my-2">
                 <div>
                   <label for="code" class="mt-2"
                     >کد نمایش داده شده را در کادر وارد نمایید :</label
                   >
                 </div>
-                <div class="d-flex">
+                <div class="d-flex flex-wrap flex-lg-nowrap">
                   <input
                     type="number"
                     name="code"
@@ -154,9 +154,13 @@
               </div>
             </form>
           </div>
-          <div class="bg-image hover-zoom">
-            <img src="img/Login.jpg" width="580" height="245" />
-          </div>
+          <div class="col-lg-6 p-3 position-relative">
+                  <img class="img-fluid position-relative" src="img/green-back.jpg" width="580" height="245">
+                  <div class="position-absolute" style="top: 50px; right: 130px;">
+                      <img src="img/green-man.jpg" class="mx-auto d-block mb-3">
+                      <a href="#" class=""><p>حساب کاربری ندارید ؟ هم اکنون عضو شوید</p></a>
+                  </div>
+            </div>
         </div>
       </section>
     </section>
@@ -220,11 +224,7 @@
 
 
 
-
-
-    <div class="">
-        <img src="https://mdbootstrap.com/img/new/standard/city/053.jpg" class=" bg-image hover-zoom" />
-      </div>
+      
       
     <!-- end footer -->
   </body>
