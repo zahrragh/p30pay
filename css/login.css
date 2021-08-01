@@ -3,7 +3,13 @@ form input
     border:1px #ccc solid;
 }
 
-
+.image-hover:hover{
+    opacity: 40%;
+    cursor: pointer;
+}
+/* .text-hover p:hover{
+    color: #81c33a;
+} */
 /* hover zoom */
 /* 
 .img-hover img {
