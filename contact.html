@@ -131,21 +131,21 @@
                 placeholder="نام و نام خانوادگی شما"
                 class="p-2 my-2 w-100 rounded-1 bg-light"
               />
-              <div class="d-flex flex-md-nowrap flex-wrap my-2">
+              <div class="d-flex flex-md-nowrap flex-wrap">
                 <input
                   type="email"
                   name="email"
                   id="email"
                   placeholder="ایمیل شما"
-                  class="p-2 ms-1 w-50 col-12 rounded-1 bg-light"
+                  class="p-2 ms-1 w-50 my-2 rounded-1 bg-light"
                 />
-                
+
                 <input
                   type="url"
                   name="address"
                   id="address"
                   placeholder="آدرس سایت ( اختیاری )"
-                  class="p-2 w-50 col-12 rounded-1 bg-light"
+                  class="p-2 w-50 my-2 rounded-1 bg-light"
                 />
               </div>
               <textarea
@@ -155,18 +155,27 @@
                 placeholder=" توضیحات شما"
                 class="my-2 rounded-1 bg-light w-100"
               ></textarea>
-              <div class="code d-flex flex-wrap my-2">
-                <label for="code" class="mt-2"
-                  >کد نمایش داده شده را در کادر وارد نمایید :</label
-                >
-                <input type="number" name="code" id="code"/>
-                <img src="img/code.jpg" />
-                <img
-                  src="img/refresh.jpg"
-                  width="20px"
-                  height="20px"
-                  class="mt-2"
-                />
+              <div class="code d-flex flex-md-nowrap flex-wrap my-2">
+                <div>
+                  <label for="code" class="mt-2"
+                    >کد نمایش داده شده را در کادر وارد نمایید :</label
+                  >
+                </div>
+                <div class="d-flex">
+                  <input
+                    type="number"
+                    name="code"
+                    id="code"
+                    style="height: 40px;"
+                  />
+                  <img src="img/code.jpg" width="151px" height="39px" />
+                  <img
+                    src="img/refresh.jpg"
+                    width="20px"
+                    height="20px"
+                    class="mt-2"
+                  />
+                </div>
               </div>
               <button
                 class="w-100 border-0 text-white py-1"
@@ -177,8 +186,8 @@
             </form>
           </div>
           <div class="col-lg-6 mx-auto">
-              <img src="img/map.jpg" class="img-fluid p-4 pt-5"/>
-        </div>
+            <img src="img/map.jpg" class="img-fluid p-4 pt-5" />
+          </div>
         </div>
       </section>
     </section>
