@@ -9,3 +9,7 @@ form input
     background-color: #ffffe5;
     border: 2px #f7efd2 solid;
 }
+
+.left-box p{
+    text-align: justify;
+}
