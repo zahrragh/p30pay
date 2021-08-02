@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/all.css" />
     <link rel="stylesheet" href="css/solid.css" />
     <link rel="stylesheet" href="css/fontawesome.css" />
-    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/page.css">
     <link rel="stylesheet" href="css/blog-single.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
@@ -109,7 +109,7 @@
       </section>
       <!-- end client location -->
 
-      <div class="container my-5">
+      <div class="container mt-5">
         <!-- start article -->
         <section class="my-2 mx-auto">
           <div class="card mb-3 p-2 rounded">
@@ -166,8 +166,65 @@
                   </div>
         </section>
         <!-- end article -->
-        <section>
-            
+        <section class="mt-5 mx-auto bg-white">
+            <div class="d-flex p-3">
+              <img src="img/idea.jpg" width="26" height="26" class="ms-2">
+              <h3>ارسال نظر</h3>
+            </div>
+            <div>
+              <form class="mx-auto">
+                <div class="d-flex flex-wrap flex-lg-nowrap p-3">
+                <div class="right-input col-lg-3">
+                  <input
+                type="text"
+                name="fullname"
+                id="fullname"
+                placeholder="نام و نام خانوادگی شما"
+                class="p-2 my-2 rounded-1 bg-light"
+              />
+              
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="ایمیل شما"
+                  class="p-2 ms-1 my-2 rounded-1 bg-light"
+                />
+
+                <input
+                  type="url"
+                  name="address"
+                  id="address"
+                  placeholder="آدرس سایت ( اختیاری )"
+                  class="p-2 my-2 rounded-1 bg-light"
+                />
+              
+                </div>
+                <textarea
+                name="message"
+                id="message"
+                rows="6"
+                placeholder=" توضیحات شما"
+                class="my-2 rounded-1 bg-light col-lg-9"
+              ></textarea>
+            </div>
+            <div class="p-3 d-flex flex-wrap justify-content-between">
+              <div class="d-flex flex-wrap">
+                <div class="ms-2">
+            <input type="checkbox" name="checkbox-right" id="checkbox-right">
+            <label for="checkbox-right">پيگير اين موضوع شويد.</label>
+          </div>
+            <div>
+            <input type="checkbox" name="checkbox-left" id="checkbox-left">
+            <label for="checkbox-left">عضویت در خبرنامه سایت</label>
+          </div>
+          </div>
+          <div>
+            <button class="text-white border-0 p-1 px-5 ms-2 rounded-1" style="background-color: #81c33a;">ارسال نظر</button>
+          </div>
+          </div>
+              </form>
+            </div>
         </section>
       </div>
     </section>
