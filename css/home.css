@@ -60,11 +60,6 @@ article {
   left: 0;
   background-image: url(../img/angle-right.png);
 }
-@media screen and (max-width:1110px) {
-  .slider1 .carousel-control-next-icon{
-    
-  }
-}
 /* end slider */
 
 .pic-back{
@@ -97,31 +92,9 @@ article {
   background-image: url(../img/angle-left.png);
  }
  .slider2 .carousel-control-next-icon{
-   right: 600%;
+   left: 0;
    background-image: url(../img/angle-right.png);
  }
- @media screen and (max-width:1110px) {
-  .slider2 .carousel-control-next-icon{
-    right: 550%;
-  }
-}
- /* .circle{
-   width: 127px;
-   height: 100px;
-   overflow: hidden;
-   background-color: rebeccapurple;
-  border-radius: 50%;
- }
- .image-hover{
-  -webkit-transform: scale(1.5);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
- }
- .image-hover:hover{
-  -webkit-transform: scale(1.5);
-	transform: scale(1.5);
- } */
 /* end slider2 */
 
 /* start upper footer */
